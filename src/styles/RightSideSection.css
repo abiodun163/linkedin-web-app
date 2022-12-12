@@ -1,0 +1,60 @@
+.RightSideSection
+{
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+     margin-top: 30px;
+}
+
+.rightSide__header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.rightSide__header h2
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.widget__article
+{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.widget__article:hover
+{
+    background-color: whitesmoke;
+}
+
+.widget__left
+{
+    color: #0177b7;
+    margin-right: 5px;
+}
+
+.widget__right
+{
+flex: 1;
+}
+
+.widget__right h4
+{
+    font-size: 14px;
+}
+.widget__right p
+{
+    font-size: 12px;
+    color: gray;
+}
